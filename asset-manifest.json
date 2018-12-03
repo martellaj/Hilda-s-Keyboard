@@ -1,13 +1,13 @@
 {
-  "main.css": "/big-keyboard/static/css/main.4a1b3190.chunk.css",
-  "main.js": "/big-keyboard/static/js/main.add45b7f.chunk.js",
-  "main.js.map": "/big-keyboard/static/js/main.add45b7f.chunk.js.map",
+  "main.css": "/big-keyboard/static/css/main.675943c6.chunk.css",
+  "main.js": "/big-keyboard/static/js/main.3f86fa8f.chunk.js",
+  "main.js.map": "/big-keyboard/static/js/main.3f86fa8f.chunk.js.map",
   "static/js/1.20bc491b.chunk.js": "/big-keyboard/static/js/1.20bc491b.chunk.js",
   "static/js/1.20bc491b.chunk.js.map": "/big-keyboard/static/js/1.20bc491b.chunk.js.map",
   "runtime~main.js": "/big-keyboard/static/js/runtime~main.a15e582e.js",
   "runtime~main.js.map": "/big-keyboard/static/js/runtime~main.a15e582e.js.map",
-  "static/css/main.4a1b3190.chunk.css.map": "/big-keyboard/static/css/main.4a1b3190.chunk.css.map",
+  "static/css/main.675943c6.chunk.css.map": "/big-keyboard/static/css/main.675943c6.chunk.css.map",
   "index.html": "/big-keyboard/index.html",
-  "precache-manifest.d05021828fd427cba49b242daf0a7cab.js": "/big-keyboard/precache-manifest.d05021828fd427cba49b242daf0a7cab.js",
+  "precache-manifest.f9613677b3aff67754d9eb8ac1a7d9f2.js": "/big-keyboard/precache-manifest.f9613677b3aff67754d9eb8ac1a7d9f2.js",
   "service-worker.js": "/big-keyboard/service-worker.js"
 }
