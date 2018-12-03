@@ -18,7 +18,13 @@ button,
 input[type="text"],
 input[type="button"],
 input[type="submit"] {
-    border-radius: 0;
-    -webkit-appearance: none;
     -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    color: #000000;
+    background-color: #f6f6f6;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }

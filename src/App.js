@@ -21,12 +21,15 @@ class App extends Component {
             <div className="App">
                 <div className="textDisplay">{this.state.text}</div>
                 <button
-                    className="clearButton"
+                    className="clearButton deleteButton"
                     onClick={() => this.setState({ text: "" })}
                 >
                     CLEAR
                 </button>
-                <Switcher switchGroup={this.switchGroup} />
+                <Switcher
+                    switchGroup={this.switchGroup}
+                    selectedGroup={this.state.selectedGroup}
+                />
                 <Keyboard
                     selectedGroup={this.state.selectedGroup}
                     modifyText={this.modifyText}

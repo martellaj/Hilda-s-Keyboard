@@ -16,7 +16,7 @@ class Keyboard extends Component {
                         SPACE
                     </button>
                     <button
-                        className="specialKeyboardButton"
+                        className="specialKeyboardButton deleteButton"
                         onClick={() => {
                             this.props.modifyText("BACKSPACE");
                         }}
