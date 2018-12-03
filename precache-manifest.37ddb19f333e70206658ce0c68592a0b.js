@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/big-keyboard/static/js/runtime~main.a15e582e.js"
   },
   {
-    "revision": "51f2f28f9bfff73019cc",
-    "url": "/big-keyboard/static/js/main.51f2f28f.chunk.js"
+    "revision": "b99d971c52e8ff1026e1",
+    "url": "/big-keyboard/static/js/main.b99d971c.chunk.js"
   },
   {
     "revision": "20bc491bae5e667480bb",
     "url": "/big-keyboard/static/js/1.20bc491b.chunk.js"
   },
   {
-    "revision": "51f2f28f9bfff73019cc",
-    "url": "/big-keyboard/static/css/main.3cdfd609.chunk.css"
+    "revision": "b99d971c52e8ff1026e1",
+    "url": "/big-keyboard/static/css/main.2da4fdc2.chunk.css"
   },
   {
-    "revision": "b0f88f4a69e6097e47af69824ed5984e",
+    "revision": "d951afeaf77863ced255b0c83eb07cae",
     "url": "/big-keyboard/index.html"
   }
 ];
