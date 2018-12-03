@@ -10,10 +10,12 @@
 .keyboardButton {
     height: 18vh;
     flex-grow: 1;
+    font-size: 1.5em;
     width: 33.33vw;
 }
 
 .specialKeyboardButton {
     height: 9vh;
     width: 50vw;
+    font-size: 1.5em;
 }
