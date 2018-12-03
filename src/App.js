@@ -1,28 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Switcher from "./Switcher";
+import Keyboard from "./Keyboard";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    constructor(props, state) {
+        super(props, state);
+
+        this.state = {
+            selectedGroup: 0
+        };
+
+        this.switchGroup = this.switchGroup.bind(this);
+    }
+
+    render() {
+        return (
+            <div className="App">
+                <div className="textDisplay" />
+                <Switcher switchGroup={this.switchGroup} />
+                <Keyboard selectedGroup={this.state.selectedGroup} />
+            </div>
+        );
+    }
+
+    switchGroup(group) {
+        this.setState({
+            selectedGroup: group
+        });
+    }
 }
 
 export default App;

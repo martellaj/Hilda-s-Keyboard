@@ -1,0 +1,19 @@
+.keyboardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboardRow {
+    display: flex;
+}
+
+.keyboardButton {
+    height: 18vh;
+    flex-grow: 1;
+    width: 33.33vw;
+}
+
+.specialKeyboardButton {
+    height: 9vh;
+    width: 50vw;
+}
