@@ -2,7 +2,7 @@
     "name": "big-keyboard",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://martellaj.github.io/big-keyboard",
+    "homepage": "https://martellaj.github.io/Hildas-Keyboard",
     "dependencies": {
         "react": "^16.6.3",
         "react-dom": "^16.6.3",
