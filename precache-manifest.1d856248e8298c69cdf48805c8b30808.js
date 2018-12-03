@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Hildas-Keyboard/static/css/main.675943c6.chunk.css"
   },
   {
-    "revision": "68969254ab8581c7983fb936230d7abf",
+    "revision": "e8cc3c5aa4880f587127412a8f9b8b44",
     "url": "/Hildas-Keyboard/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Hildas-Keyboard/precache-manifest.2ae4f443478324c6c7a556d754640df0.js"
+  "/Hildas-Keyboard/precache-manifest.1d856248e8298c69cdf48805c8b30808.js"
 );
 
 workbox.clientsClaim();
