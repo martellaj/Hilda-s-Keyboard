@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Hilda-s-Keyboard/precache-manifest.c1dbe18032e937c9f3a4afc6ffd57557.js"
+  "/Hildas-Keyboard/precache-manifest.2ae4f443478324c6c7a556d754640df0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Hilda-s-Keyboard/index.html", {
+workbox.routing.registerNavigationRoute("/Hildas-Keyboard/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

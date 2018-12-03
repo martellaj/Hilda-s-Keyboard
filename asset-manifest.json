@@ -1,13 +1,13 @@
 {
-  "main.css": "/Hilda-s-Keyboard/static/css/main.675943c6.chunk.css",
-  "main.js": "/Hilda-s-Keyboard/static/js/main.4ad63a4d.chunk.js",
-  "main.js.map": "/Hilda-s-Keyboard/static/js/main.4ad63a4d.chunk.js.map",
-  "static/js/1.20bc491b.chunk.js": "/Hilda-s-Keyboard/static/js/1.20bc491b.chunk.js",
-  "static/js/1.20bc491b.chunk.js.map": "/Hilda-s-Keyboard/static/js/1.20bc491b.chunk.js.map",
-  "runtime~main.js": "/Hilda-s-Keyboard/static/js/runtime~main.71e4d327.js",
-  "runtime~main.js.map": "/Hilda-s-Keyboard/static/js/runtime~main.71e4d327.js.map",
-  "static/css/main.675943c6.chunk.css.map": "/Hilda-s-Keyboard/static/css/main.675943c6.chunk.css.map",
-  "index.html": "/Hilda-s-Keyboard/index.html",
-  "precache-manifest.c1dbe18032e937c9f3a4afc6ffd57557.js": "/Hilda-s-Keyboard/precache-manifest.c1dbe18032e937c9f3a4afc6ffd57557.js",
-  "service-worker.js": "/Hilda-s-Keyboard/service-worker.js"
+  "main.css": "/Hildas-Keyboard/static/css/main.675943c6.chunk.css",
+  "main.js": "/Hildas-Keyboard/static/js/main.cba20321.chunk.js",
+  "main.js.map": "/Hildas-Keyboard/static/js/main.cba20321.chunk.js.map",
+  "static/js/1.20bc491b.chunk.js": "/Hildas-Keyboard/static/js/1.20bc491b.chunk.js",
+  "static/js/1.20bc491b.chunk.js.map": "/Hildas-Keyboard/static/js/1.20bc491b.chunk.js.map",
+  "runtime~main.js": "/Hildas-Keyboard/static/js/runtime~main.f8a0894e.js",
+  "runtime~main.js.map": "/Hildas-Keyboard/static/js/runtime~main.f8a0894e.js.map",
+  "static/css/main.675943c6.chunk.css.map": "/Hildas-Keyboard/static/css/main.675943c6.chunk.css.map",
+  "index.html": "/Hildas-Keyboard/index.html",
+  "precache-manifest.2ae4f443478324c6c7a556d754640df0.js": "/Hildas-Keyboard/precache-manifest.2ae4f443478324c6c7a556d754640df0.js",
+  "service-worker.js": "/Hildas-Keyboard/service-worker.js"
 }
