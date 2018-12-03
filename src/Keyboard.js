@@ -7,8 +7,22 @@ class Keyboard extends Component {
             <div className="keyboardContainer">
                 {this.getKeyboard()}
                 <div className="keyboardRow">
-                    <button className="specialKeyboardButton">SPACE</button>
-                    <button className="specialKeyboardButton">DELETE</button>
+                    <button
+                        className="specialKeyboardButton"
+                        onClick={() => {
+                            this.props.modifyText(" ");
+                        }}
+                    >
+                        SPACE
+                    </button>
+                    <button
+                        className="specialKeyboardButton"
+                        onClick={() => {
+                            this.props.modifyText("BACKSPACE");
+                        }}
+                    >
+                        BACKSPACE
+                    </button>
                 </div>
             </div>
         );
@@ -21,19 +35,82 @@ class Keyboard extends Component {
             return (
                 <>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">A</button>
-                        <button className="keyboardButton">B</button>
-                        <button className="keyboardButton">C</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("a");
+                            }}
+                        >
+                            A
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("b");
+                            }}
+                        >
+                            B
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("c");
+                            }}
+                        >
+                            C
+                        </button>
                     </div>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">D</button>
-                        <button className="keyboardButton">E</button>
-                        <button className="keyboardButton">F</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("d");
+                            }}
+                        >
+                            D
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("e");
+                            }}
+                        >
+                            E
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("f");
+                            }}
+                        >
+                            F
+                        </button>
                     </div>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">G</button>
-                        <button className="keyboardButton">H</button>
-                        <button className="keyboardButton">I</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("g");
+                            }}
+                        >
+                            G
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("h");
+                            }}
+                        >
+                            H
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("i");
+                            }}
+                        >
+                            I
+                        </button>
                     </div>
                 </>
             );
@@ -41,19 +118,82 @@ class Keyboard extends Component {
             return (
                 <>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">J</button>
-                        <button className="keyboardButton">K</button>
-                        <button className="keyboardButton">L</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("j");
+                            }}
+                        >
+                            J
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("k");
+                            }}
+                        >
+                            K
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("l");
+                            }}
+                        >
+                            L
+                        </button>
                     </div>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">M</button>
-                        <button className="keyboardButton">N</button>
-                        <button className="keyboardButton">O</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("m");
+                            }}
+                        >
+                            M
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("n");
+                            }}
+                        >
+                            N
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("o");
+                            }}
+                        >
+                            O
+                        </button>
                     </div>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">P</button>
-                        <button className="keyboardButton">Q</button>
-                        <button className="keyboardButton">R</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("p");
+                            }}
+                        >
+                            P
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("q");
+                            }}
+                        >
+                            Q
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("r");
+                            }}
+                        >
+                            R
+                        </button>
                     </div>
                 </>
             );
@@ -62,18 +202,74 @@ class Keyboard extends Component {
             return (
                 <>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">S</button>
-                        <button className="keyboardButton">T</button>
-                        <button className="keyboardButton">U</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("s");
+                            }}
+                        >
+                            S
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("t");
+                            }}
+                        >
+                            T
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("u");
+                            }}
+                        >
+                            U
+                        </button>
                     </div>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">V</button>
-                        <button className="keyboardButton">W</button>
-                        <button className="keyboardButton">X</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("v");
+                            }}
+                        >
+                            V
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("w");
+                            }}
+                        >
+                            W
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("x");
+                            }}
+                        >
+                            X
+                        </button>
                     </div>
                     <div className="keyboardRow">
-                        <button className="keyboardButton">Y</button>
-                        <button className="keyboardButton">Z</button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("y");
+                            }}
+                        >
+                            Y
+                        </button>
+                        <button
+                            className="keyboardButton"
+                            onClick={() => {
+                                this.props.modifyText("z");
+                            }}
+                        >
+                            Z
+                        </button>
                         <button className="keyboardButton" />
                     </div>
                 </>

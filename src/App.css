@@ -5,5 +5,13 @@
 }
 
 .textDisplay {
-    height: 32vh;
+    font-size: 2em;
+    height: 21vh;
+    margin: 12px;
+    word-wrap: break-word;
+}
+
+.clearButton {
+    height: 8vh;
+    width: 100vw;
 }

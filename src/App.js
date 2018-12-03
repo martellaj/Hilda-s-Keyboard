@@ -8,18 +8,29 @@ class App extends Component {
         super(props, state);
 
         this.state = {
-            selectedGroup: 0
+            selectedGroup: 0,
+            text: ""
         };
 
+        this.modifyText = this.modifyText.bind(this);
         this.switchGroup = this.switchGroup.bind(this);
     }
 
     render() {
         return (
             <div className="App">
-                <div className="textDisplay" />
+                <div className="textDisplay">{this.state.text}</div>
+                <button
+                    className="clearButton"
+                    onClick={() => this.setState({ text: "" })}
+                >
+                    CLEAR
+                </button>
                 <Switcher switchGroup={this.switchGroup} />
-                <Keyboard selectedGroup={this.state.selectedGroup} />
+                <Keyboard
+                    selectedGroup={this.state.selectedGroup}
+                    modifyText={this.modifyText}
+                />
             </div>
         );
     }
@@ -28,6 +39,18 @@ class App extends Component {
         this.setState({
             selectedGroup: group
         });
+    }
+
+    modifyText(letter) {
+        if (letter === "BACKSPACE") {
+            this.setState({
+                text: this.state.text.substring(0, this.state.text.length - 1)
+            });
+        } else {
+            this.setState({
+                text: this.state.text + letter
+            });
+        }
     }
 }
 
